@@ -1,0 +1,38 @@
+<mvc:View
+        controllerName="UI5Camera.controller.App"
+        displayBlock="true"
+        xmlns="sap.m"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns:camera="UI5Camera.control">
+    <App>
+        <pages>
+
+            <Page title="Finstagram">
+                <content>
+                    <List id="picsList" items="{path: '/pics'}" updateFinished="applyFilters"
+                          busyIndicatorDelay="500"
+                          enableBusyIndicator="true">
+                        <CustomListItem>
+                            <Panel>
+                                <headerToolbar>
+                                    <!--<Toolbar height="3rem">-->
+                                        <!--<Title text="{description}"/>-->
+                                    <!--</Toolbar>-->
+                                </headerToolbar>
+                                <content>
+                                    <Image src="{image}"></Image>
+                                </content>
+                            </Panel>
+
+                        </CustomListItem>
+                    </List>
+                </content>
+                <footer>
+                    <Toolbar>
+                        <Button text="Add new Pic" icon="sap-icon://camera" press="openNewPicDialog"/>
+                    </Toolbar>
+                </footer>
+            </Page>
+        </pages>
+    </App>
+</mvc:View>

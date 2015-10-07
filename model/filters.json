@@ -1,0 +1,65 @@
+{
+  "filters": [
+    {
+      "name": "X-PRO 2",
+      "class": "ig-xpro2"
+    },
+    {
+      "name": "Willow",
+      "class": "ig-willow"
+    },
+    {
+      "name": "Walden",
+      "class": "ig-walden"
+    },
+    {
+      "name": "Valencia",
+      "class": "ig-valencia"
+    },
+    {
+      "name": "Toaster",
+      "class": "ig-toaster"
+    },
+    {
+      "name": "Sutro",
+      "class": "ig-sutro"
+    },
+    {
+      "name": "Sierra",
+      "class": "ig-sierra"
+    },
+    {
+      "name": "Rise",
+      "class": "ig-rise"
+    },
+    {
+      "name": "Nashville",
+      "class": "ig-nashville"
+    },
+    {
+      "name": "Mayfair",
+      "class": "ig-mayfair"
+    },
+    {
+      "name": "Kelvin",
+      "class": "ig-kelvin"
+    },
+    {
+      "name": "Inkwell",
+      "class": "ig-inkwell"
+    },
+    {
+      "name": "Hefe",
+      "class": "hefe"
+    },
+    {
+      "name": "Earlybird",
+      "class": "ig-earlybird"
+    },
+    {
+      "name": "1977",
+      "class": "ig-1977"
+    }
+
+  ]
+}

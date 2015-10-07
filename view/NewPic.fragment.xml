@@ -1,0 +1,19 @@
+<core:FragmentDefinition
+        xmlns="sap.m"
+        xmlns:core="sap.ui.core"
+        xmlns:camera="UI5Camera.control">
+    <Dialog
+            title="Add a new Pic!"
+            stretchOnPhone="true">
+        <buttons>
+            <Button text="Add" type="Default" press="addPic">
+            </Button>
+            <Button text="Close" type="Default" press="cancelPicDialog">
+            </Button>
+        </buttons>
+        <content>
+            <camera:CameraView id="cam"></camera:CameraView>
+        </content>
+
+    </Dialog>
+</core:FragmentDefinition>

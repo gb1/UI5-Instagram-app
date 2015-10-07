@@ -1,0 +1,24 @@
+{
+  "name": "ui5cam",
+  "version": "1.0.0",
+  "main": "Component.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gbrett@bitbucket.org/gbrett/ui5cam.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/gbrett/ui5cam#readme",
+  "dependencies": {
+    "connect": "^3.4.0",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-webserver": "^0.9.1",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

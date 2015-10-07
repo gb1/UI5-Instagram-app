@@ -1,0 +1,23 @@
+{
+  "name": "koa_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co-body": "^4.0.0",
+    "co-monk": "^1.0.0",
+    "fs": "0.0.2",
+    "https": "^1.0.0",
+    "koa": "^1.0.0",
+    "koa-cors": "0.0.16",
+    "koa-force-ssl": "0.0.5",
+    "koa-route": "^2.4.2",
+    "koa-ssl": "^2.0.0",
+    "monk": "^1.0.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "_version": "0.0.1",
+  "sap.app": {
+    "_version": "0.0.1",
+    "id": "UI5Camera",
+    "type": "application",
+    "applicationVersion": {
+      "version": "1.0.0"
+    }
+  },
+  "sap.ui": {
+    "_version": "0.0.1",
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": true
+    },
+    "supportedThemes": [
+      "sap_bluecrystal"
+    ]
+  },
+  "sap.ui5": {
+    "_version": "0.0.1",
+    "rootView": "UI5Camera.view.App",
+    "dependencies": {
+      "minUI5Version": "1.30",
+      "libs": {
+        "sap.m": {}
+      }
+    }
+  }
+}
